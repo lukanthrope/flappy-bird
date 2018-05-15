@@ -1,0 +1,19 @@
+{
+  "name": "flappybird",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukanthrope/flappy-bird.git"
+  },
+  "author": "lukanthrope",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukanthrope/flappy-bird/issues"
+  },
+  "homepage": "https://github.com/lukanthrope/flappy-bird#readme"
+}
