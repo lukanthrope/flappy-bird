@@ -22,6 +22,7 @@ score_audio.src = "audio/score.mp3";
 var gap = 95;
 
 document.addEventListener("keydown", moveUp);
+cvs.addEventListener("click", moveUp);
 
 function moveUp() {
   yPos -= 30;
