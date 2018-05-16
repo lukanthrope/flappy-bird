@@ -63,7 +63,7 @@ function draw() {
       && xPos <= pipe[i].x + pipeUp.width
       && (yPos <= pipe[i].y + pipeUp.height
         || yPos + bird.height >= pipe[i].y + pipeUp.height + gap)
-        || yPos + bird.height >= cvs.height - fg.height
+        || yPos + bird.height >= cvs.height - fg.height - 5
         || yPos + bird.height <= 5) {
 
       location.reload();
