@@ -67,6 +67,7 @@ function draw() {
         || yPos + bird.height <= 5) {
 
       location.reload();
+      return 0;
     }
 
     if (pipe[i].x == 5) {
