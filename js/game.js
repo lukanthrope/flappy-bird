@@ -50,7 +50,7 @@ function draw() {
     ctx.drawImage(pipeUp, pipe[i].x, pipe[i].y);
     ctx.drawImage(pipeBottom, pipe[i].x, pipe[i].y + pipeUp.height + gap);
 
-    pipe[i].x = pipe[i].x - 2
+    pipe[i].x = pipe[i].x - 1.5
     ;
 
     if (pipe[i].x == 90) {
